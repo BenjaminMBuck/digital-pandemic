@@ -1,5 +1,8 @@
 package GUI;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
@@ -19,7 +22,8 @@ public class GameWindow extends JFrame {
         add(new ImagePanel("./assets/map.png",1000,1000));
         
         JFrame cardWindow = new JFrame();
-        cardWindow.add(new ImagePanel(Main.infectionDrawPile.get(1).getImagePath(),300,500));
+        cardWindow.setSize(500,400);
+        cardWindow.add(new ImagePanel(Main.infectionDrawPile.get(0).getImagePath(),500,350));
         cardWindow.setVisible(true);
         
         JButton shuffleButton = new JButton("Shuffle");
@@ -28,6 +32,13 @@ public class GameWindow extends JFrame {
         JButton drawButton = new JButton("Draw Card");
         drawButton.setBounds(1000, 200, 100, 20);
         add(drawButton);
+        drawButton.addActionListener(new ActionListener(){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+        });
         JButton randomButton = new JButton("");
         drawButton.setBounds(1000, 200, 100, 20);
         add(randomButton);
