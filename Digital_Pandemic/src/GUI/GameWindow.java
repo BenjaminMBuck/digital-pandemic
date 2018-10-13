@@ -17,9 +17,14 @@ public class GameWindow extends JFrame {
         add(new ImagePanel());
         
         JButton shuffleButton = new JButton("Shuffle");
+        shuffleButton.setBounds(1000, 100, 100, 20);
         add(shuffleButton);
         JButton drawButton = new JButton("Draw Card");
+        drawButton.setBounds(1000, 200, 100, 20);
         add(drawButton);
+        JButton randomButton = new JButton("");
+        drawButton.setBounds(1000, 200, 100, 20);
+        add(randomButton);
         
         //add(panel);
         
