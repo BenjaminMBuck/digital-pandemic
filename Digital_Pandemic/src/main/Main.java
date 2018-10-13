@@ -12,8 +12,8 @@ public class Main {
 	public static int numPlayers;
 	public static int numEpidemics;
 	
-	public static ArrayList<InfectionCard> infectionDrawPile;
-	public static ArrayList<InfectionCard> infectionDiscardPile;
+	public static ArrayList<Card> infectionDrawPile;
+	public static ArrayList<Card> infectionDiscardPile;
 	public static ArrayList<PlayerCard> playerDrawPile;
 	public static ArrayList<PlayerCard> playerDiscardPile;
 	
@@ -38,12 +38,12 @@ public class Main {
 		City Tokyo = new City("Tokyo", 2,1,1,false);
 		//Yellow Cities
 		City LosAngeles = new City("Los Angeles", 1,1,1,false);
-		City MexicoCity = new City("Mexico Cities", 1,1,1,false);
+		City MexicoCity = new City("Mexico City", 1,1,1,false);
 		City Miami = new City("Miami", 1,1,1,false);
 		City Bogota = new City("Bogota", 1,1,1,false);
 		City Lima = new City("Lima", 1,1,1,false);
 		City Santiago = new City("Santiago", 1,1,1,false);
-		City BuneosAires = new City("Buneos Aires", 1,1,1,false);
+		City BuneosAires = new City("Buenos Aires", 1,1,1,false);
 		City SaoPaulo = new City("Sao Paulo", 1,1,1,false);
 		City Lagos = new City("Lagos", 1,1,1,false);
 		City Kinshasa = new City("Kinshasa", 1,1,1,false);
@@ -59,7 +59,7 @@ public class Main {
 		City Madrid = new City("Madrid", 0,1,1,false);
 		City Paris = new City("Paris", 0,1,1,false);
 		City Milan = new City("Milan", 0,1,1,false);
-		City StPetersburg = new City("St. Petersburg", 0,1,1,false);
+		City StPetersburg = new City("St Petersburg", 0,1,1,false);
 		City Essen = new City("Essen", 0,1,1,false);
 		City Atlanta = new City("Atlanta", 0,1,1,true);
 		//Black Cities
@@ -131,7 +131,8 @@ public class Main {
 		cityList.add(Algiers);
 		
 		
-		infectionDrawPile = new ArrayList<InfectionCard>();
+		infectionDrawPile = new ArrayList<Card>();
+		infectionDiscardPile = new ArrayList<Card>();
 		for (City currentCity : cityList) {
 			infectionDrawPile.add(new InfectionCard(currentCity));
 		}
