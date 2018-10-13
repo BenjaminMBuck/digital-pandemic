@@ -73,6 +73,60 @@ public class Main {
 		City Baghdad = new City("Baghdad", 3,1,1,false);
 		City Algiers = new City("Algiers", 3,1,1,false);
 		
-
+		ArrayList<City>cityList=new ArrayList<City>();
+		
+		cityList.add(City Beijing)
+		cityList.add(City Shanghai)
+		cityList.add(City hongKong)
+		cityList.add(City Bangkok)
+		cityList.add(City Jakarta)
+		cityList.add(City HCMCity)
+		cityList.add(City Seoul)
+		cityList.add(City Osaka)
+		cityList.add(City Taipei)
+		cityList.add(City Manila)
+		cityList.add(City Sydney)
+		cityList.add(City Tokyo)
+			
+		cityList.add(City LosAngeles)
+		cityList.add(City MexicoCity)
+		cityList.add(City Miami)
+		cityList.add(City Bogota)
+		cityList.add(City Lima)
+		cityList.add(City Santiago)
+		cityList.add(City BuneosAires)
+		cityList.add(City SaoPaulo)
+		cityList.add(City Lagos)
+		cityList.add(City Kinshasa)
+		cityList.add(City Johannesburg)
+		cityList.add(City Khartoum)
+			
+		cityList.add(City SanFrancisco)
+		cityList.add(City Chicago)
+		cityList.add(City Washington)
+		cityList.add(City NewYork)
+		cityList.add(City Montreal)
+		cityList.add(City London)
+		cityList.add(City Madrid)
+		cityList.add(City Paris)
+		cityList.add(City Milan)
+		cityList.add(City StPetersburg)
+		cityList.add(City Essen)
+		cityList.add(City Atlanta)
+			
+		cityList.add(City Moscow)
+		cityList.add(City Tehran)
+		cityList.add(City Delhi)
+		cityList.add(City Kolkata)
+		cityList.add(City Chennai)
+		cityList.add(City Mumbai)
+		cityList.add(City Karachi)
+		cityList.add(City Riyadh)
+		cityList.add(City Cairo)
+		cityList.add(City Istanbul)
+		cityList.add(City Baghdad)
+		cityList.add(City Algiers)
+		
+			
 	}
 }
