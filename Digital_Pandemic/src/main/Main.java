@@ -3,6 +3,7 @@ package main;
 import java.util.ArrayList;
 
 import Cards.PlayerCard;
+import GUI.GameWindow;
 import GUI.InitialPrompt;
 
 public class Main {
@@ -127,6 +128,7 @@ public class Main {
 		cityList.add(Baghdad);
 		cityList.add(Algiers);
 		
-			
+		new GameWindow();
+		
 	}
 }
