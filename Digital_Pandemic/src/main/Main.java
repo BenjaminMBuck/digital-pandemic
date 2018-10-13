@@ -75,57 +75,57 @@ public class Main {
 		
 		ArrayList<City>cityList=new ArrayList<City>();
 		
-		cityList.add(City Beijing)
-		cityList.add(City Shanghai)
-		cityList.add(City hongKong)
-		cityList.add(City Bangkok)
-		cityList.add(City Jakarta)
-		cityList.add(City HCMCity)
-		cityList.add(City Seoul)
-		cityList.add(City Osaka)
-		cityList.add(City Taipei)
-		cityList.add(City Manila)
-		cityList.add(City Sydney)
-		cityList.add(City Tokyo)
+		cityList.add(Beijing);
+		cityList.add(Shanghai);
+		cityList.add(hongKong);
+		cityList.add(Bangkok);
+		cityList.add(Jakarta);
+		cityList.add(HCMCity);
+		cityList.add(Seoul);
+		cityList.add(Osaka);
+		cityList.add(Taipei);
+		cityList.add(Manila);
+		cityList.add(Sydney);
+		cityList.add(Tokyo);
 			
-		cityList.add(City LosAngeles)
-		cityList.add(City MexicoCity)
-		cityList.add(City Miami)
-		cityList.add(City Bogota)
-		cityList.add(City Lima)
-		cityList.add(City Santiago)
-		cityList.add(City BuneosAires)
-		cityList.add(City SaoPaulo)
-		cityList.add(City Lagos)
-		cityList.add(City Kinshasa)
-		cityList.add(City Johannesburg)
-		cityList.add(City Khartoum)
+		cityList.add(LosAngeles);
+		cityList.add(MexicoCity);
+		cityList.add(Miami);
+		cityList.add(Bogota);
+		cityList.add(Lima);
+		cityList.add(Santiago);
+		cityList.add(BuneosAires);
+		cityList.add(SaoPaulo);
+		cityList.add(Lagos);
+		cityList.add(Kinshasa);
+		cityList.add(Johannesburg);
+		cityList.add(Khartoum);
 			
-		cityList.add(City SanFrancisco)
-		cityList.add(City Chicago)
-		cityList.add(City Washington)
-		cityList.add(City NewYork)
-		cityList.add(City Montreal)
-		cityList.add(City London)
-		cityList.add(City Madrid)
-		cityList.add(City Paris)
-		cityList.add(City Milan)
-		cityList.add(City StPetersburg)
-		cityList.add(City Essen)
-		cityList.add(City Atlanta)
+		cityList.add(SanFrancisco);
+		cityList.add(Chicago);
+		cityList.add(Washington);
+		cityList.add(NewYork);
+		cityList.add(Montreal);
+		cityList.add(London);
+		cityList.add(Madrid);
+		cityList.add(Paris);
+		cityList.add(Milan);
+		cityList.add(StPetersburg);
+		cityList.add(Essen);
+		cityList.add(Atlanta);
 			
-		cityList.add(City Moscow)
-		cityList.add(City Tehran)
-		cityList.add(City Delhi)
-		cityList.add(City Kolkata)
-		cityList.add(City Chennai)
-		cityList.add(City Mumbai)
-		cityList.add(City Karachi)
-		cityList.add(City Riyadh)
-		cityList.add(City Cairo)
-		cityList.add(City Istanbul)
-		cityList.add(City Baghdad)
-		cityList.add(City Algiers)
+		cityList.add(Moscow);
+		cityList.add(Tehran);
+		cityList.add(Delhi);
+		cityList.add(Kolkata);
+		cityList.add(Chennai);
+		cityList.add(Mumbai);
+		cityList.add(Karachi);
+		cityList.add(Riyadh);
+		cityList.add(Cairo);
+		cityList.add(Istanbul);
+		cityList.add(Baghdad);
+		cityList.add(Algiers);
 		
 			
 	}
