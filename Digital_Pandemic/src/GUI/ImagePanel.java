@@ -1,6 +1,7 @@
 package GUI;
 
 import java.awt.Graphics;
+import java.awt.Image;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -11,14 +12,15 @@ import javax.swing.JPanel;
 
 public class ImagePanel extends JPanel{
 
-    private BufferedImage image;
+    private Image image;
 
-    public ImagePanel() {
-    	setSize(1000,1000);
+    public ImagePanel(String imagePath, int width, int height) {
+    	setSize(width,height);
        try {                
-          image = ImageIO.read(new File("./assets/map.png"));
+          image = ImageIO.read(new File(imagePath));
+          image = image.getScaledInstance(width,height,Image.SCALE_SMOOTH);
        } catch (IOException ex) {
-            System.out.println("Error!");
+            System.out.println("Error with image path: "+imagePath);
        }
     }
 

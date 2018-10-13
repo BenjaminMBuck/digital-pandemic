@@ -2,6 +2,8 @@ package main;
 
 import java.util.ArrayList;
 
+import Cards.Card;
+import Cards.InfectionCard;
 import Cards.PlayerCard;
 import GUI.GameWindow;
 import GUI.InitialPrompt;
@@ -128,8 +130,10 @@ public class Main {
 		cityList.add(Baghdad);
 		cityList.add(Algiers);
 		
+		
+		infectionDrawPile = new ArrayList<InfectionCard>();
 		for (City currentCity : cityList) {
-			infectionDrawPile.add(new InfectionCard());
+			infectionDrawPile.add(new InfectionCard(currentCity));
 		}
 		
 		new GameWindow();

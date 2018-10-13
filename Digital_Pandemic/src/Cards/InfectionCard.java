@@ -7,13 +7,15 @@ public class InfectionCard extends Card{
 	String imagePath;
 	
 	public InfectionCard(City city){
-		this(city, "./"+city.getName()+".png");
+		this(city, "./assets/infectionCards/"+city.getName()+".png");
 	}
 	public InfectionCard(City city, String imagePath){
 		this.city = city;
 		this.imagePath = imagePath;
 	}
-  
+	public String getImagePath() {
+		return imagePath;
+	}
   
   
 

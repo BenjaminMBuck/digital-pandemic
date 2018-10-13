@@ -5,6 +5,8 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import main.Main;
+
 public class GameWindow extends JFrame {
 	public GameWindow() {
 		super("Pandemic");
@@ -13,8 +15,12 @@ public class GameWindow extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
         
-        //JPanel panel = new JPanel();
-        add(new ImagePanel());
+        JPanel panel = new JPanel();
+        add(new ImagePanel("./assets/map.png",1000,1000));
+        
+        JFrame cardWindow = new JFrame();
+        cardWindow.add(new ImagePanel(Main.infectionDrawPile.get(1).getImagePath(),300,500));
+        cardWindow.setVisible(true);
         
         JButton shuffleButton = new JButton("Shuffle");
         shuffleButton.setBounds(1000, 100, 100, 20);
