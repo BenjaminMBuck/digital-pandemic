@@ -15,5 +15,9 @@ public class City {
 		this.hasResearchStation  = hasResearchStation;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
 	
 }

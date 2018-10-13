@@ -128,6 +128,10 @@ public class Main {
 		cityList.add(Baghdad);
 		cityList.add(Algiers);
 		
+		for (City currentCity : cityList) {
+			infectionDrawPile.add(new InfectionCard());
+		}
+		
 		new GameWindow();
 		
 	}
